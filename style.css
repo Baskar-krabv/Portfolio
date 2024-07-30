@@ -1,0 +1,169 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    width:100%;
+    height:100vh;
+    padding: 0%;
+    margin: 0%;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    background-color: #3F3D9D;
+}
+ul{
+    
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    list-style: none;
+}
+li{
+    font-size:25px;
+}
+li:hover{
+        color: white;
+        border-top:3px solid white;
+        transition:.1s;
+    }
+a{
+    text-decoration: none;
+    color:white;
+    }
+footer{
+    width:100%;
+    height:100px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(36, 32, 32);
+}
+.mainContents{
+    width:100%;
+    height:auto;
+    display:grid;
+    gap:-15px;
+}
+.main{
+    width:100%;
+    height:500px;
+    display:grid;
+    align-items:end;
+    justify-content:center;
+    background-color: #3F3D9D;
+    
+    }
+.aboutMe{
+    width: 100%;
+    height:auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-bottom:10px;
+}
+p{
+    font-size:18px;
+    font-weight:normal;
+}
+.contents{
+    background-color: white;
+    width:60%;
+    height:100px;
+    height:auto;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+i{
+    background-color: white;
+}
+.icons{
+    width:100px;
+    height:20px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    border-radius:5px;
+    margin-left:340%;
+}
+.goback{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    margin-left:340%;
+}
+.img{
+    margin-top: 40px;
+    width:300px;
+    height:300px;
+    background-color: white;
+    border-radius:50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.name{
+    width:100%;
+    height: auto;
+    text-align: center;
+    color: white;
+    margin-bottom:70px;
+}
+.image{
+    width:93%;
+    height:280px;
+    border-radius:50%;
+}
+#back{
+    text-decoration: none;
+    color: black;
+}
+#portfolio{
+    width:100%;
+    height:auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:20px;
+}
+.project1{
+    margin-top:2px;
+    width:300px;
+    height:300px;
+    border:3px outset ;
+    margin-bottom:10px;
+    border-radius:10px;
+}
+.project2{
+    width:300px;
+    height:300px;
+    margin-bottom:10px;
+    border:3px outset ;
+    border-radius:10px;
+}
+.additional{
+    width:50%;
+    height: auto;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    gap:20px;
+}
+.msg{
+    width:50%;
+    height: auto;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    gap:10px;
+}
